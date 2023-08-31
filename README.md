@@ -1,28 +1,51 @@
-# React + TypeScript + Vite
+# Em construção 🚧 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Portfólio
+Bem-vindo ao repositório do meu portfólio como desenvolvedora front-end! Este projeto tem como objetivo apresentar meus trabalhos e habilidades como profissional na área de desenvolvimento web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- React com TypeScript (ReactTs): A base deste projeto é construída usando o framework React com TypeScript. Isso me permite criar componentes reutilizáveis, gerenciar o estado de forma eficiente e desenvolver uma aplicação mais robusta.
 
-## Expanding the ESLint configuration
+- Styled Components: Para a estilização dos componentes, optei por usar Styled Components. Com essa abordagem, posso criar estilos de forma mais modular e manter um código mais organizado, além de aproveitar os recursos do CSS-in-JS.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades do Projeto
+Meu portfólio possui as seguintes funcionalidades:
 
-- Configure the top-level `parserOptions` property like this:
+- Página Inicial: Uma breve introdução.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- Contato: Informações de contato para que os visitantes possam entrar em contato comigo facilmente.
+
+- Projetos: Uma seção dedicada aos projetos.
+
+- Habilidades: Detalhes sobre as linguagens de programação, tecnologias e ferramentas que estou familiarizada e confortável em usar.
+
+- Responsividade: O portfólio é totalmente responsivo, garantindo uma experiência de usuário consistente em diferentes dispositivos e tamanhos de tela.
+
+
+## Como Executar o Projeto
+Se você deseja executar este projeto localmente em seu próprio ambiente de desenvolvimento, siga estas etapas:
+
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+
+2. Clone este repositório para o seu computador.
+
+3. Abra o terminal na pasta raiz do projeto e execute o seguinte comando para instalar as dependências:
+
+```bash
+  npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Portfolio
+4. Após a conclusão da instalação, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+
+```bash
+  npm run dev
+```
+
+## Contribuição
+Se você quiser contribuir para este projeto, sinta-se à vontade para enviar um pull request. Ficarei feliz em receber feedback, sugestões de melhorias e novas ideias para tornar o portfólio ainda mais incrível!
+
+## Contato
+Se você deseja entrar em contato comigo em relação ao projeto ou oportunidades de colaboração, sinta-se à vontade para me enviar um e-mail em mariana.cavalcantevl@gmail.com.
+
+Obrigada por visitar meu portfólio e espero que você goste dos projetos que apresentei aqui!
